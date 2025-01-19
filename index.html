@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal protfolio</title>
+    <link rel ="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id ="header">
+        <div class="container">
+            <nav>
+                <img src="sa.webp" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-window-close' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX</p>
+                <h1> Hi, I'm <span>Saloni</span><br>Varshney From Hathras</h1>
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/3.avif">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, commodi asperiores. Aliquid, iusto? Labore iusto vel similique earum quisquam harum nihil quia ea? At quidem eaque ipsam! Ad, magni ducimus!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Personal Skills</span><br>  Time Management and Organisation ,Curious to Learn and Dedication </li>
+                            <li><span>We Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>no</span><br> none</li>
+                            <li><span>An start Up</span><br></li>
+                            <li><span>starter</span><br>Starter</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-20</span><br>class 10th,From CBSE Board </li>
+                            <li><span>2021-22</span><br>Class 12th,From CBSE Board</li>
+                            <li><span>2022-25</span><br>BCA From Mangalayatan University</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------sevices-------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                 <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Web Design</h2>
+                    <p>This web design tutorial is a complete guide for beginners who want to learn web design from the basics. Here, we cover everything from web designing fundamentals such as the importance of UI/UX Design and their principles, preloader in websites, web graphics and typography, etc. to advanced web design topics such as the role of 3D graphics in UI/UX design, role of psychology in UX design, purpose of wireframing in web design process and more.</p>
+
+
+                     <a href="#"> Learn more </a>
+                 </div>
+                 <div>
+                    <i class='bx bxs-crop'></i>
+                    <h2>UI/UX Design</h2>
+                    <p>In digital design, user interface (UI) refers to the interactivity, look, and feel of a product screen or web page, while user experience (UX) covers a user’s overall experience with the product or website. Read on to find out what it takes to design engaging UI, and create a memorable UX..</p>
+                    <a href="#"> Learn more </a>
+                 </div>
+                 <div>
+                    <i class='bx bxs-bookmark-alt'></i>
+                    
+
+                    <h2>App Design</h2>
+                    <p>In digital design, user interface (UI) refers to the interactivity, look, and feel of a product screen or web page, while user experience (UX) covers a user’s overall experience with the product or website. Read on to find out what it takes to design engaging UI, and create a memorable UX..</p>
+                    <a href="#">Learn more </a>
+                 </div>
+            </div>
+   
+        </div>
+    </div>
+    <!---------protfolio--------------->
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work1.webp">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from playstore
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work2.jpg">
+                    <div class="layer">
+                        <h3>calculator App</h3>
+                        <p>A calculator app is a software program that performs mathematical calculations, such as addition, subtraction, multiplication, and division.
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work3.webp">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Weather apps provide information about the current and predicted weather conditions.
+                        
+                        </p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+    <!---------------------contact------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class='bx bxs-send'></i> smrt.svrshny@gmail.com</p>
+                    <p><i class='bx bxs-phone'></i> 9999999999</p>
+                    <div class="social-icons">
+                        <a href="https://whatsapp.com/"><i class='bx bxl-whatsapp-square' ></i></a>
+                        <a href="https://instagram.com/"><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://linkedin.com/"><i class='bx bxl-linkedin-square'></i></a>
+                        <a href="https://twitter.com/"><i class='bx bxl-twitter'></i>
+                    </a>
+
+                    </div>
+                    <a href="image/saloni.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Saloni. Made <i class='bx bxs-heart'></i> by Saloni Varshney</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+    
+</body>
+</html>
